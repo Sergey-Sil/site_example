@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django_comments',
     'taggit',
     'easy_thumbnails',
-    'precise_bbcode'
+    'precise_bbcode',
+    'main'
 ]
 
 MIDDLEWARE = [
@@ -149,3 +150,5 @@ EMAIL_HOST = "someserver.ru"
 EMAIL_HOST_USER = "user"
 EMAIL_HOST_PASSWORD = "123"
 DEFAULT_FROM_EMAIL = "mail@someserver.ru"
+
+LOGIN_REDIRECT_URL = "main"

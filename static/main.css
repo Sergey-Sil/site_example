@@ -1,0 +1,70 @@
+@charset "utf-8";
+#header {
+  text-align: center;
+  border-bottom: 1px #cccccc solid;
+}
+#header h1 {
+  margin: 20px 0px 20px 0px;
+  letter-spacing: 0.2em;
+}
+#leftmenu {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  min-height: 440px;
+}
+#leftmenu ul {
+  margin: 0px;
+  padding: 0px;
+}
+#leftmenu ul li {
+  font-size: larger;
+  list-style-type: none;
+  margin: 0px 10px 10px 0px;
+}
+#leftmenu ul li a {
+  display: block;
+}
+#leftmenu ul li.indented {
+  margin-top: 20px;
+}
+#leftmenu ul li a:link,
+#leftmenu ul li a:visited,
+#leftmenu ul li a:active,
+#leftmenu ul li a:hover {
+  text-decoration: none;
+}
+#leftmenu ul li a:link,
+#leftmenu ul li a:visited {
+  color: #0000FF;
+  background-color: #FFFFFF;
+}
+#leftmenu ul li a:active, #leftmenu ul li a:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#leftmenu ul li a.current:link,
+#leftmenu ul li a.current:visited,
+#leftmenu ul li a.current:active,
+#leftmenu ul li a.current:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+#main {
+  margin-left: 110px;
+  border-left: 1px #cccccc solid;
+  padding: 10px;
+  min-height: 440px;
+}
+#main h2:first-child {
+  margin: 0px 0px 10px 0px;
+}
+#footer {
+  text-align: right;
+  border-top: 1px #cccccc solid;
+  padding-right: 10px;
+}
+#footer p {
+  font-size: smaller;
+  font-style: italic;
+}
